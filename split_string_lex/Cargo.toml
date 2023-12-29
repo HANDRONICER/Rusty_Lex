@@ -1,0 +1,11 @@
+[package]
+name = "split_string_lex"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+#this proyect is a part of my personal learning as progressing on the course: /rust-fundamentals by AlfredoMeza
+
+[dependencies]
+
+clap ={ version = "4", features = ["derive"]}
