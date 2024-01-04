@@ -21,7 +21,7 @@ fn main() {
     
     
     //En esta zona ya nos encontramos fuera de nuestro bloque anidado, por lo que la validez del shadowning anterior termino, por tanto el valor de x fuera del bloque anidado es 6 de acuerdo a la variable mutable original: "x".
-    Mientras que valor dentro de la variable x shadow, siempre y cuando se encuentre dentro del bloque anidado para ser valida, siempre sera: 12
+    //Mientras que valor dentro de la variable x shadow, siempre y cuando se encuentre dentro del bloque anidado para ser valida, siempre sera: 12
     println!("El valor de x fuera del bloque anidado es: {x}");
     
     }
